@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background: #e8f5ff;
+}
+
+#wrapper{
+    width: 500px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 12px 12px 20px rgba(0,0,0,.4);
+    border-radius: 10px;
+}
+#wrapper .form h1{
+    color: #1574c3;
+}
+#wrapper .form{
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.6s ease-in-out;
+    text-align: center;
+}
+#wrapper .form input{
+    width: 80%;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 0 0 0 15px;
+}
+#wrapper #login-form{
+    background-color: #f7f7f7;
+    transform: translateX(0);
+}
+#wrapper #signup-form{
+    background-color: #f7f7f7;
+    transform: translateX(-100%);
+}
+#wrapper .switch-animation{
+    text-align: center;
+    margin-top: 20px;
+}
+#wrapper .switch-animation a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+#wrapper .switch-animation a:hover{
+    color: #1574c3;
+}
+#wrapper button {
+    display: block;
+    margin: 1% auto 0;
+    border: none;
+    background-color: #1574c3;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    width: 84%;
+}
